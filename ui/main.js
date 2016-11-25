@@ -19,7 +19,7 @@ per.onclick = function(){
         }
     };
     // make a request
-    request1.open('GET', 'http:asishag12.cloud.hasura.io/personal', true);
+    request1.open('GET', 'http:asishag12.cloud.hasura-app.io/personal', true);
     request1.send(null);
     
 };

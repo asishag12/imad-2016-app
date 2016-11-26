@@ -22,20 +22,14 @@ per.onclick = function(){
     //request1.open('GET', 'http:asishag12.imad.hasura-app.io/personal', true);
    // request1.send(null);
     //
-    
-    var a = document.getElementById('a');
-    a.href= 'asishag12.imad.hasura-app.io/personal.html';
-    
+    document.getElementById('http://asishag12.imad.hasura-app.io/personal.html').click();
+  
 };
 
 pro.onclick = function(){
-     var a = document.getElementById('a');
-    a.href= 'asishag12.imad.hasura-app.io/professional.html';
     
 };
 
 soc.onclick = function(){
-     var a = document.getElementById('a');
-    a.href= 'asishag12.imad.hasura-app.io/social.html';
-    
+  
 };
